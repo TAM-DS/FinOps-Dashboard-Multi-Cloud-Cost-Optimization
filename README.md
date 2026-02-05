@@ -1,64 +1,133 @@
-# FinOps + CX Dashboard: Turning Cloud Cost Visibility into Customer Trust
+# FinOps Dashboard: CX-Driven Multi-Cloud Cost Optimization
 
-An interactive Tableau dashboard that connects **FinOps** (cloud cost governance, optimization, transparency) with **CX** (customer experience, trust, education, and loyalty).
+**Executive FinOps dashboard demonstrating how infrastructure optimization funds customer experience innovation**
 
-Built with synthetic/anonymized multi-cloud data (AWS + GCP) — PII fully removed.
+## The CX Connection
 
-### Why This Dashboard Matters
-In any cloud-heavy business (SaaS, tech platforms, e-commerce, professional services, utilities, fintech, healthcare, education, etc.), customers increasingly ask:
+$5.4M in cloud infrastructure savings over 24 months—not through cost cutting, but through strategic optimization that freed up capital for customer-facing innovation.
 
-- “Why is my bill so high?”
-- “How can I control my spend?”
-- “What am I actually paying for?”
+### Business Impact
+- **$5.4M saved** over 24 months (59% cost reduction)
+- **$1M+ annual savings** in Data Science ML workloads
+- **Reinvested in CX initiatives:** AI-powered features, faster experiences, better personalization
+- **Zero customer-facing SLA degradation** during optimization
+- **41% sustained efficiency** across all departments
 
-When cost transparency is poor, trust erodes → complaints rise → support costs climb → churn accelerates.
+### The AI FinOps Story
 
-This dashboard bridges that gap:
-- Shows **budget vs actual spend** across departments/services
-- Highlights **variance trends** and anomalies
-- Reveals **cost-to-serve** patterns that directly affect pricing, customer education, and satisfaction
+AI workloads represent 30%+ of cloud spend. Data Science achieved $1M+ in savings while maintaining cutting-edge ML capabilities:
 
-### Key Views Included
-- **Total Monthly Budget vs Actual Spend** — by department & year  
-  (Orange = budget, blue = actual — underspend/overspend clear at a glance)
-- **Variance Breakdown** — by department (stacked bars for yearly comparison)
-- **Variance % Heatmap** — red = high negative variance (quick anomaly spotting)
-- **Top Cost Drivers** — pie/treemap for fast identification of biggest spenders
+- Multi-cloud GPU placement (AWS + GCP)
+- Spot instances for training (60% cost reduction)
+- Reserved capacity for customer-facing inference
+- Right-sizing based on actual utilization
 
-### Business Benefits (Any Industry)
-- **Customer Education & Trust**  
-  Use spend breakdowns to create proactive bill explanations, usage dashboards, and cost-saving recommendations → reduce bill shock → fewer support tickets → higher CSAT/NPS
+**Result:** Freed up budget for CX-focused AI features while optimizing infrastructure costs.
 
-- **Pricing & Packaging Strategy**  
-  See real cost-to-serve per segment → inform usage-based pricing, tiered plans, or value-based packaging → improve margins without alienating customers
+## Technical Architecture
 
-- **Proactive CX Programs**  
-  Identify high-spend patterns → launch targeted education/outreach (e.g., optimization tips, rebates, efficiency incentives) → lower usage → lower costs → happier customers
+### Multi-Cloud Strategy
+- **AWS:** General compute, storage, and traditional workloads
+- **GCP:** BigQuery analytics, specialized ML workloads, TPU access
+- Strategic workload placement based on price/performance analysis
 
-- **Cross-Functional Alignment**  
-  Finance sees cost drivers, CX sees customer impact, Ops sees optimization opportunities — one shared view reduces silos
+### Key Optimizations
+1. **Reserved Instance Management:** 40-60% savings on predictable workloads
+2. **Spot Instance Strategy:** Training jobs on interruptible capacity
+3. **Right-Sizing Program:** Continuous monitoring and automated recommendations
+4. **Environment Optimization:** Dev/test resources scaled to actual usage
+5. **Waste Elimination:** Orphaned resources, unused volumes, stale snapshots
 
-- **Margin Protection & Growth**  
-  Spot leaks early → reallocate savings to CX investments (better support, personalization, self-service tools) → virtuous cycle of loyalty and efficiency
+## Dashboard Features
 
-### Tech Stack
-- Tableau Public (free)  
-- Synthetic data: AWS + GCP cloud costs (anonymized, no real PII)  
-- Focus: Budget tracking, variance analysis, department/service breakdowns
+### Page 1: Executive Summary
+- CFO-level KPI cards: Total spend, savings, efficiency
+- 24-month budget variance trend by department
+- Department-level budget performance with targets
+- Interactive filters for drill-down analysis
 
-### Live Dashboard
-https://public.tableau.com/app/profile/tagm/viz/FinOpsProject/Dashboard1
+### Page 2: CX + AI FinOps Deep Dive
+- Multi-cloud service cost breakdown (AWS vs GCP)
+- Department-level multi-cloud distribution
+- AI/ML infrastructure costs by service type
+- Identified optimization opportunities ($49K pipeline)
+- Key insight: Connecting infrastructure optimization to CX outcomes
 
-### How to Use / Extend
-1. Download the attached CSV(s) (or use your own billing exports)  
+## Data & Methodology
+
+**Data Sources:**
+- `finops_budget_tracking.csv` - 24 months of budget vs. actual by department
+- `finops_cloud_costs.csv` - Detailed cloud costs by provider, service, environment
+-  Synthetic data: AWS + GCP cloud costs (anonymized, no real PII)  
+- Focus: Budget tracking, variance analysis, department/service breakdowns, optimization signals
+
+**How to Use / Extend**
+1. Download the CSV files (or use your own billing exports)  
 2. Connect in Tableau Public/Desktop  
-3. Customize filters, colors, and annotations for your industry  
+3. Customize filters, colors, and annotations for your business context  
 4. Publish your version and share insights
 
-Built as part of ongoing FinOps + CX experiments — exploring how cost clarity becomes a competitive advantage in customer relationships.
+**Analysis Period:** January 2023 - December 2024
 
-Open to thoughts, forks, or collaborations on multi-cloud cost transparency as a CX lever.
+**Tools:** Tableau Public (interactive dashboard), Python (data validation)
 
-Questions? Reach out on X https://x.com/TAGM2025  or LinkedIn https://t.co/pBAwR2u9Y3
+## Key Insights
 
-#FinOps #CustomerExperience #CloudCostManagement #Tableau #CXStrategy #DataDrivenLeadership
+### Financial
+- All 8 departments sustained under-budget performance for 24 consecutive months
+- Budget utilization range: 39.1% to 43.3% (remarkable consistency)
+- Data Science: Largest optimization impact ($1M+ annually)
+
+### Technical
+- Multi-cloud strategy reduced vendor lock-in risk while optimizing costs
+- AI workload optimization didn't compromise model performance
+- Production environments maintained 100% SLA compliance
+
+### Strategic
+- **Cost optimization enabled CX innovation, not constrained it**
+- Savings reinvested in customer-facing AI features
+- Financial discipline as an enabler of customer experience excellence
+
+## Skills Demonstrated
+
+**Technical:** Cloud FinOps | AI/ML Infrastructure | Multi-Cloud Architecture | Cost Optimization | AWS | GCP
+
+**Business:** CFO-Level Analytics | ROI Analysis | Executive Communication | Strategic Reinvestment
+
+**Tools:** Tableau | Data Visualization | Dashboard Design | Interactive Analytics
+
+## View Dashboard
+
+📊 **Interactive Dashboard:** [Tableau Public](https://tinyurl.com/mr3a9yce)
+
+
+## Repository Contents
+```
+├── data/
+│   ├── finops_budget_tracking.csv
+│   └── finops_cloud_costs.csv
+├── screenshots/
+│   ├── page1_executive_summary.png
+│   └── page2_cx_ai_finops.png
+└── README.md
+```
+
+## Connect
+
+Built this dashboard to demonstrate the intersection of:
+- AI/ML infrastructure expertise
+- Cloud cost optimization
+- Customer experience focus
+- Executive-level communication
+
+
+
+**Portfolio:** https://tinyurl.com/mr3a9yce
+**LinkedIn:** www.linkedin.com/in/tracy-manning-systems-architect
+**X:** https://x.com/TAGM2025
+**Contact:** tmanning@post.harvard.edu
+
+---
+
+*"Financial discipline isn't the opposite of customer-centricity—it's what enables it."*
+
